@@ -2,8 +2,12 @@
   "name": "test-addon",
   "version": "1.0.0",
   "main": "index.js",
+  "gypfile": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build:dev": "node-gyp build --debug",
+    "rebuild:dev": "node-gyp rebuild --debug",
+    "clean" : "node-gyp clean"
   },
   "dependencies": {
     "bindings": "^1.5.0",
