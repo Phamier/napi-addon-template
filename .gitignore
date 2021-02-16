@@ -1,0 +1,20 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Dependency directory
+node_modules/
+
+# Compiled binary addons
+build/
+
+# Optional npm cache directory
+.npm
+
+# parcel-bundler cache
+.cache
+.parcel-cache
+
+# VS Code directory
+.vscode/
